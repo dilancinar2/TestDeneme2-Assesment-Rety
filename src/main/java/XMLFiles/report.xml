@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd" >
+<suite name="Vakıfbank Sitesi Chrome Test">
+
+        <test name="VakifBank Sitesi Test Senaryo Sonuclari">
+
+            <groups>
+                <run>
+                    <include name="screenstepsgroup"/>
+
+                </run>
+            </groups>
+            <classes>
+                <class name="StepDefinition.screen_steps"></class>
+            </classes>
+        </test>
+
+</suite>

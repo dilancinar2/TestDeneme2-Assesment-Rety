@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Vakıfbank Sitesi Chrome Test]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="VakifBank Sitesi Test Senaryo Sonuclari(failed)">
+    <groups>
+      <run>
+        <include name="screenstepsgroup"/>
+      </run>
+    </groups>
+    <classes>
+      <class name="StepDefinition.screen_steps">
+        <methods>
+          <include name="kredi_hesaplama_araci_alanini_verfiy_et"/>
+          <include name="vakifbank_Sitesine_Git"/>
+          <include name="vadeTutarDegeriniVerifyEt"/>
+          <include name="taksi̇tEKHESAPDegerineTiklanir"/>
+          <include name="xverifyislemiGerceklestirilir"/>
+          <include name="vade_degeri_slide_ile_girilir"/>
+          <include name="bireysel_krediler_sekmesine_tiklanir"/>
+          <include name="xtoplamDegerBulunur"/>
+          <include name="kredi_hesaplama_butonuna_tiklanir"/>
+          <include name="bireysel_tabina_tiklanir"/>
+          <include name="hesaplama_araclari_linkine_tiklanir"/>
+          <include name="xvztarayiciyiKapat"/>
+          <include name="hesaplamaAraclariLinkiniVerfiyEt"/>
+        </methods>
+      </class> <!-- StepDefinition.screen_steps -->
+    </classes>
+  </test> <!-- VakifBank Sitesi Test Senaryo Sonuclari(failed) -->
+</suite> <!-- Failed suite [Vakıfbank Sitesi Chrome Test] -->
